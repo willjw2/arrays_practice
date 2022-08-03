@@ -14,3 +14,8 @@ p var4
 #Calling the unshift method is like the push method but with the first element of the array instead of the last
 var2.unshift(0)
 p var2
+#Index positions in ruby start counting from 0, here are some examples
+#As seen, the [0] index position refers to the first element of the array
+puts var3[0], var3[1], var3[2], var3[3]
+#Interestingly, it seems like if you exceed the limits of an array, there is no error message, just no output
+puts var3[4]
