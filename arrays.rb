@@ -19,3 +19,9 @@ p var2
 puts var3[0], var3[1], var3[2], var3[3]
 #Interestingly, it seems like if you exceed the limits of an array, there is no error message, just no output
 puts var3[4]
+#Additional method chosen is join, this method returns a string that is each element of the array converted to a string combined
+#You can also use the join method with your own input seperator (default is no space between elements)
+puts var1.join
+puts var2.join
+puts var4.join(" ")
+puts var3.join("_")
